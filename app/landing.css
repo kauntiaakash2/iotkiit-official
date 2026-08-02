@@ -990,6 +990,17 @@ html {
   }
 }
 
+@media (prefers-reduced-motion: reduce) and (max-width: 720px) {
+  .hero-body {
+    height: auto;
+    min-height: 820px;
+  }
+
+  .assembly-wrap {
+    bottom: 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
